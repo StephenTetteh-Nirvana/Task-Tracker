@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <div class="header-section">
-        <h1>Task Manager</h1>
+        <h1>Lets Become More Productive</h1>
         <button @click="Show">
           <img src="../images/icons8-menu-64.png"/>
         </button>
@@ -9,18 +9,14 @@
 
       <div class="info" v-if="displayInfo">
         <p>With this task tracker web app u can create tasks,
-          edit tasks and even delete tasks when u are done. 
+           and delete tasks when u are done. 
         </p>
       </div>
 
       <div class="center-box">
-          <router-link to="/login">
-            <button class="login">Login</button>
+          <router-link to="/main">
+            <button class="login">Create Task</button>
           </router-link>
-
-         <router-link to="/register">
-          <button class="create">Create Account</button>
-         </router-link>
     
       </div>
 

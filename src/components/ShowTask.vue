@@ -12,9 +12,7 @@
         <button @click="save">Save Task</button>
 
 
-            <div>
-                <TaskDisplay :tasks="tasks"/>
-            </div>
+           
        
  
     
@@ -23,12 +21,8 @@
 
 <script>
 import {ref} from 'vue'
-import TaskDisplay from '@/components/TaskDisplay.vue'
     export default {
         name:'ShowTask',
-        components:{
-            TaskDisplay
-        },
 
         setup(){
 
