@@ -14,7 +14,7 @@
       </div>
 
       <div class="center-box">
-          <router-link to="/main">
+          <router-link class="route" to="/main">
             <button class="login">Create Task</button>
           </router-link>
     
@@ -87,7 +87,11 @@ import {ref} from 'vue'
   border:1px solid black;
   background:transparent;
   font-size:18px;
+  color:black;
   border-radius:20px;
+}
+.route{
+  color:black;
 }
 .create{
   padding:10px 40px;
